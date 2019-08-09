@@ -1,108 +1,62 @@
-<!DOCTYPE HTML>
-<!--
-	Website
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Clive by Clive Mangerere</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+<head>
+	<title>Clive's Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header id="welcome-section">
+	<h1 id="middle">Welcome<br>to<br>Clive's Portfolio</h1>
+	<div id="navbar">
+		<ul>
+			<li id="title"><a href="#">Clive's Portfolio</a> </li>
+	        <li><a class="nav-link" href="#welcome-section">About</a></li>
+	        <li><a class="nav-link" href="#Work">Work</a></li>
+	        <li><a class="nav-link" href="#Contact">Contact</a></li>
+	    </ul>
+	</div>
+</header>
+<body>
+	<div id="projects">
+		<h2>These are some of my projects:</h2><br>
+		<div class="project-tile">
+			<a href="https://codepen.io/cmade/pen/exmBBo" target="#"><img src="img/TributeApp Photo.png" ></a>
+			<p>Tribute page</p>
+		</div>
+		<div class="project-tile">
+			<a href="https://codepen.io/cmade/pen/aXBvBG" target="#"><img src="img/SurveyApp Photo.png" ></a>
+			<p>Survey page</p>
+		</div>
+		<div class="project-tile">
+			<a href="https://codepen.io/cmade/pen/VgoaPo" target="#"><img src="img/documentationApp Photo.png" ></a>
+			<p>Documentation page</p>
+		</div>
+		<div class="project-tile">
+			<a href="https://codepen.io/cmade/pen/aXKrgO" target="#"><img src="img/landing page Photo.png" ></a>
+			<p>Landing page</p>
+		</div>
+		<div id="space">
+			<button id="show-all"><a href="https://codepen.io/cmade/" target="#">Show All</a></button>
+		</div>
+	</div>
+	<div id="Contact">
+		<h1 id="top">Lets Work Together:</h1>
+		<div id="middle-center">
+			<a href="" target="_blank" id="profile-link">Facebook</a>
+			<a href="" target="_blank" id="profile-link">Github</a>
+			<a href="" target="_blank" id="profile-link">Twitter</a>
+			<a href="" target="#" id="middle1">Email</a>
+			<a href="" target="#" id="middle1">Call Me</a>
+		</div>
+	</div>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<h1>Clive's Portfolio</h1>
-					<p>By Clive Mangerere</p>
-				</header>
-				<footer>
-					<a href="#banner" class="button style2 scrolly scrolly-centered">Work in Progress</a>
-				</footer>
-			</section>
-		
-		<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>Portfolio</h2>
-				</header>
-				<p>A brand new site portfolio designed by <a href="https://www.linkedin.com/pub/clive-mangerere/50/17a/a09">Clive</a> for <a href="http://www.yearup.org">YEAR UP</a>.<br />
-				It’s fully responsive, built on <strong>skel</strong>, and designed with beauty in mind.
-				<footer>
-					<a href="#first" class="button style2 scrolly">Next</a>
-				</footer>
-			</section>
-		
-		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
-				<a href="images/code.jpg" class="image fit"><img src="images/code.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Learning HTML:<br />
-						CodeAcademy</h2>
-					</header>
-					<p>I wanted to learn the basics of web design. So i decided to use a free resource, Codeacademy. It helped me learn the basics of HTML, which is the backbone of all websites.</p>
-				</div>
-			</article>
-		
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="images/html.jpg" class="image fit"><img src="images/html.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Code:<br />
-						Trial and Error</h2>
-					</header>
-					<p>Through trial and error I was able to mock up a website by coding and using a web developer tools like sublime text 2 to save my code and make a website.</p>
-				</div>
-			</article>
-		
-		<!-- Portfolio -->
-			<article class="container box style2">
-				<header>
-					<h2>Portfolio</h2>
-					<p>Here is some of the work I've been <br />
-					doing over the past few weeks.</p>
-				</header>
-				<div class="inner gallery">
-					<div class="row 0%">
-						<div class="3u"><a href="images/fulls/email_icon.jpg" class="image fit"><img src="images/thumbs/email_icon.jpg" alt="" title="Designed an email icon for app." /></a></div>
-						<div class="3u"><a href="images/fulls/make.jpg" class="image fit"><img src="images/thumbs/make.jpg" alt="" title="Used CodeAcademy to make a make a basic website." /></a></div>
-						<div class="3u"><a href="images/fulls/skype.jpg" class="image fit"><img src="images/thumbs/skype.jpg" alt="" title="Redesigned Skype logo to practice making logos for website." /></a></div>
-						<div class="3u"><a href="images/fulls/game_App.jpg" class="image fit"><img src="images/thumbs/game_App.jpg" alt="" title="Redesigned icon for game in IOS to practice for making app." /></a></div>
-					</div>
-					<div class="row 0%">
-						<div class="3u"><a href="images/fulls/cp.jpg" class="image fit"><img src="images/thumbs/cp.jpg" alt="" title="Designed portfolio website." /></a></div>
-						<div class="3u"><a href="images/fulls/html1.jpg" class="image fit"><img src="images/thumbs/html1.jpg" alt="" title="HTML for the portfolio website." /></a></div>
-						<div class="3u"><a href="images/fulls/css1.jpg" class="image fit"><img src="images/thumbs/css1.jpg" alt="" title="CSS for portfolio website." /></a></div>
-						<div class="3u"><a href="images/fulls/javascript1.jpg" class="image fit"><img src="images/thumbs/javascript1.jpg" alt="" title="Javascript for website." /></a></div>
-					</div>
-				</div>
-			</article>
-		
-		<section id="footer">
-			<ul class="icons">
-				<li><a href="https://twitter.com/clivemanger" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="https://www.linkedin.com/pub/clive-mangerere/50/17a/a09" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-			</ul>
-			<div class="copyright">
-				<ul class="menu">
-					<li>&copy; All rights reserved.</li><li>Design: <a href="https://www.linkedin.com/profile/view?id=179571753&trk=nav_responsive_tab_profile_pic">Clive</a></li>
-				</ul>
-			</div>
-		</section>
-
-	</body>
+</body>
+<footer>
+	<div id="foot">
+		<p id="feet">This is my portfolio.&copy</p>
+	</div>
+	
+</footer>
 </html>
